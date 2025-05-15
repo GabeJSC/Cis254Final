@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="849.0" style="-fx-background-color: linear-gradient(to bottom, #1a472a, #0f2e1d);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalcis.BJTutorialController">
+   <children>
+      <Button fx:id="goBack" layoutX="404.0" layoutY="360.0" mnemonicParsing="false" onAction="#onGoBackClick" text="Go Back" />
+      <Label layoutX="7.0" layoutY="6.0" prefHeight="17.0" prefWidth="593.0" text="How to Play BlackJack" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="23.0" prefHeight="17.0" prefWidth="593.0" text="1. The goal is to get as close to 21 without going over." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="40.0" prefHeight="17.0" prefWidth="593.0" text="2. Click 'Start' to begin. You will be given two cards." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="57.0" prefHeight="23.0" prefWidth="640.0" text="3. Click 'Hit' to draw another card, Click 'Stand' to keep your hand, and end your turn" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="74.0" prefHeight="17.0" prefWidth="593.0" text="4. The dealer must draw until their hand is 17 or more" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="91.0" prefHeight="23.0" prefWidth="863.0" text="5. Whoever is closer to 21 wins, Going over 21 means you bust(lose), and if the scores are the same you push(tie)" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="108.0" prefHeight="17.0" prefWidth="593.0" text="6. Click on a card to see its value and suit " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
